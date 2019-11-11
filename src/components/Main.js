@@ -11,6 +11,7 @@ import pic08 from '../images/pic08.jpg'
 import top from '../images/TOP.png'
 import pc_open from '../images/PC_open.png'
 import sp from '../images/sp.png'
+import dtp from '../images/dtp.pdf'
 
 
 class Main extends React.Component {
@@ -163,7 +164,7 @@ class Main extends React.Component {
           <li>
             <span style={{ paddingRight: '15px' }}>view more</span>
             <a
-              href="https://passgene-7e0ec.firebaseapp.com"
+              href={dtp}
               className="icon fa-angle-double-right"
               target="_blank"
             >
