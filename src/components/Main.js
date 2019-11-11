@@ -6,6 +6,8 @@ import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
+import pic07 from '../images/pic07.jpg'
+import pic08 from '../images/pic08.jpg'
 import top from '../images/TOP.png'
 import pc_open from '../images/PC_open.png'
 import sp from '../images/sp.png'
@@ -37,7 +39,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic07} alt="" />
           </span>
           <p>
           岡山県出身で、就職を機に京都へ移住しました。<br />
@@ -48,7 +50,6 @@ class Main extends React.Component {
           そして出来ることは増えていきましたが･･･ふと気が付いてみると保守作業ばかりで、
           デザインや1からの制作を殆どやっていない現実に直面。<br />
           原点回帰してもっと沢山制作作業に携わりたいと思い現在、転職活動中です。
-             <a href="#work">awesome work</a>.
           </p>
           {close}
         </article>
@@ -182,7 +183,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic08} alt="" />
           </span>
           <p>
             京都在住のコーダー兼フロントエンジニア（まれにデザイン）業界経験3年ほどです。
@@ -210,6 +211,7 @@ class Main extends React.Component {
             <li>Photoshop</li>
             <li>Illustrator</li>
             <li>InDesign</li>
+            <li>git</li>
           </ul>
           {close}
         </article>
@@ -241,7 +243,7 @@ class Main extends React.Component {
               </li>
               <li>
                 <input type="reset" value="Reset" />
-                <input type="hidden" name="form-name" value="contact" />  
+                <input type="hidden" name="form-name" value="contact" />
               </li>
             </ul>
           </form>
