@@ -222,7 +222,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact" method="post"  data-netlify="true">
+          <form name="contact" method="post" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -241,6 +241,7 @@ class Main extends React.Component {
               </li>
               <li>
                 <input type="reset" value="Reset" />
+                <input type="hidden" name="form-name" value="contact" />  
               </li>
             </ul>
           </form>
