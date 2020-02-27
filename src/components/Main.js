@@ -45,12 +45,12 @@ class Main extends React.Component {
           <p>
           岡山県出身で、就職を機に京都へ移住しました。<br />
           1年ほど基盤などを扱う電子部品の総合商社の営業事務として就業、後にもっとクリエイティブな仕事をしてみたいと
-          退職、DTPデザインの職業訓練校に通い現在のweb制作会社へ入社。<br />
+          退職、DTPデザインの職業訓練校に通い現在のwebの運営会社へ入社。<br />
           HTMLやCSSなどwebページの作成は全くの未経験だったため、入社から3年間毎日勉強の日々ですが
           新しい知識を吸収するのはとても楽しくあっという間に時間が過ぎていました。
           そして出来ることは増えていきましたが･･･ふと気が付いてみると保守作業ばかりで、
           デザインや1からの制作を殆どやっていない現実に直面。<br />
-          原点回帰してもっと沢山制作作業に携わりたいと思い現在、転職活動中です。
+          原点回帰してもっと沢山制作作業に携わりたいと思い現在活動中です。
           </p>
           {close}
         </article>
@@ -148,6 +148,31 @@ class Main extends React.Component {
             <span style={{ paddingRight: '15px' }}>view more</span>
             <a
               href="https://passgene-7e0ec.firebaseapp.com"
+              className="icon fa-angle-double-right"
+              target="_blank"
+            >
+              <span className="label">view site</span>
+            </a>
+          </li>
+          </ul>
+          <span className="image main">
+            <img src={pic09} alt="" />
+          </span>
+          <p>
+            制作期間:2~3週間<br />
+            担当:デザイン・コーディング<br />
+            小さいながらも、たくさんの宝物が埋もれているという感じのリサイクルショップですので、<br />
+            なるべくにぎやかな感じを出したくてバックにcanvasを用いてパーティクルをちりばめました。<br />
+            バックがにぎやかなのでアニメーションは控え目に、ファーストビューでwebサイトを見つけたお客さんに「お！なんだここ？」と
+            興味を持ち、「行ってみよう」と実際にお店に足を運んでいただけるようになるようこころがけました。
+            実装させました。<br /><br />
+            client:リサクルショップCUBE様
+          </p>
+          <ul className="icons">
+          <li>
+            <span style={{ paddingRight: '15px' }}>view more</span>
+            <a
+              href="http://gorirakun0721.hungry.jp"
               className="icon fa-angle-double-right"
               target="_blank"
             >
