@@ -167,7 +167,7 @@ class Main extends React.Component {
             バックがにぎやかなのでアニメーションは控え目に、ファーストビューでwebサイトを見つけたお客さんに「お！なんだここ？」と<br />
             興味を持ち、「行ってみよう」と実際にお店に足を運んでいただけるようになるようこころがけました。<br />
             実装させました。<br /><br />
-            client:リサクルショップCUBE様
+            client:リサイクルショップCUBE様
           </p>
           <ul className="icons">
           <li>
